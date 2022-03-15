@@ -1,0 +1,25 @@
+body {
+	background-color: #2f4f4f;
+}
+.container {
+	margin: 0 auto;
+	max-width: 1280px;
+}
+.header__head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* max-height: 300px; */
+	padding: 50px 0;
+}
+.header__img  {
+	object-fit: contain;
+	border-radius: 50%;
+}
+.header__name {
+	align-self: center;
+	flex: 1 1 auto;
+	text-align: center;
+	font-size: 40px;
+	color: whitesmoke;
+}
