@@ -44,9 +44,7 @@ let decodeMorse = function(morseCode) {
   	let result = res.map((b)=>{
    	let val =[];
    	for(let value of b){
-   	if(value) {
-			val+=MORSE_CODE[value.trim()]
-			}
+   	if(value) val+=MORSE_CODE[value.trim()]
     }
     return val
   });
