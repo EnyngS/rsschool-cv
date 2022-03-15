@@ -1,9 +1,15 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
 body {
 	background-color: #2f4f4f;
+	color: whitesmoke;
 }
 .container {
 	margin: 0 auto;
 	max-width: 1280px;
+	padding: 0 20px;
 }
 .header__head {
 	display: flex;
@@ -15,6 +21,7 @@ body {
 .header__img  {
 	object-fit: contain;
 	border-radius: 50%;
+	flex: 0 0 auto;
 }
 .header__name {
 	align-self: center;
@@ -22,4 +29,33 @@ body {
 	text-align: center;
 	font-size: 40px;
 	color: whitesmoke;
+}
+.dev {
+	font-style: italic;
+	font-size: 30px;
+	
+}
+h3 {
+	font-weight: 600;
+	font-size: 40px;
+	border-bottom: 3px solid whitesmoke ;
+}
+ul {
+	font-size: 30px;
+	color: #cd7f32;
+}
+.main__desc {
+	font-size: 30px;
+	font-style: italic;
+}
+pre {
+	font-size: 20px;
+	background-color: #3f3f3f;
+	padding: 20px 0;
+}
+a {
+	/* list-style: none; */
+	/* text-decoration: none; */
+	color: #b65f09;
+	text-decoration: underline;
 }
