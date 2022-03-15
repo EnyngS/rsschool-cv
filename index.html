@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css" >
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+	<header class="header">
+<div class="header__head">
+	<img class="header__img" src="./11.jpg" width="300px" alt="">
+	<div class="header__name">Vladislav Susikov <br> <span class="dev">Frontend developer</span></div>
+</div>
+</header>
+<main class="main">
+	<h3>Contact info</h3>
+
+<ul>
+	<li>City: Samara</li>
+	<li>Email: susikovvlad2gmail.com</li>
+	<li>GitHub: <a href="https://github.com/EnyngS">Enyng</a></li>
+	<li>Codewars: <a href="https://www.codewars.com/users/EnyngS">EnyngS</a></li>
+	<li>Discord: Vladislav (@EnyngS)</li>
+</ul>
+
+<h3>About me</h3>
+
+<div class="main__desc">I am a final year student. I have been studying web development for about 1 year. Participated in hackathons, developed small websites.</div>
+
+ <h3>Education</h3>
+<ul class="main__ed">
+ <li><a href="https://coursera.org/share/6f495e2de44869153543fff88480b382">Coursera, JavaScript</a></li>
+ <li>Selfeducation: <a href="https://learn.javascript.ru/">JavaScript.ru</a> , <a href="https://www.youtube.com/c/FreelancerLifeStyle">YouTube</a></li>
+ <li>SSAU, bachelor(2022)</li>
+</ul>
+<h3>Skills</h3>
+
+ <ul class="main__skills">
+	<li>Html,Css</li>
+	<li>JavaScript</li>
+	 <li>Git</li>
+	 <li>Gulp</li>
+	 <li>React(Begginer)</li>
+	 <li>Decentraland ECS Utils</li>
+	 <li>English - A2</li>
+</ul>
+
+ <h3>Projects</h3>
+
+<ul>
+	<li><a href="https://enyngs.github.io/site/">MoGo</a></li>
+	<li><a href="https://enyngs.github.io/game/">React</a></li>
+	<li><a href="https://enyngs.github.io/voice/">School Voice</a></li>
+	<li><a href="https://enyngs.github.io/Run/">Landing</a></li>
+</ul>
+
+<h3>Code example</h3>
+
+
+<pre>
+	let decodeMorse = function(morseCode) {
+		let a = morseCode.split('   ');
+		let res= a.map((b)=>b.split(' '))
+		  let result = res.map((b)=>{
+			let val =[];
+			for(let value of b){
+			if(value) val+=MORSE_CODE[value.trim()]
+		 }
+		 return val
+	  });
+	  return result.join(' ').trim();
+	}
+</pre>
+
+
+</main>
+	
+</div>
+</body>
+</html>
