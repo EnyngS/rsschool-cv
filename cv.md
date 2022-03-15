@@ -6,6 +6,7 @@
 - Email: susikovvlad2gmail.com
 - GitHub: [Enyng](https://github.com/EnyngS)
 - Codewars: [EnyngS](https://www.codewars.com/users/EnyngS)
+- Discord: Vladislav (@EnyngS)
 
 ## About me
 
@@ -14,7 +15,7 @@ I am a final year student. I have been studying web development for about 1 year
 ## Education
 
 - [Coursera, JavaScript](https://coursera.org/share/6f495e2de44869153543fff88480b382)
-- Selfeducation [JavaScript.ru](https://learn.javascript.ru/),[YouTube](https://www.youtube.com/c/FreelancerLifeStyle)
+- Selfeducation: [JavaScript.ru](https://learn.javascript.ru/), [YouTube](https://www.youtube.com/c/FreelancerLifeStyle)
 - SSAU, bachelor(2022)
 
 ## Skills
@@ -37,11 +38,9 @@ I am a final year student. I have been studying web development for about 1 year
 ## Code example
 
 ```
-let decodeMorse = function(morseCode){
+let decodeMorse = function(morseCode) {
 	let a = morseCode.split('   ');
-
 	let res= a.map((b)=>b.split(' '))
-
   	let result = res.map((b)=>{
    	let val =[];
    	for(let value of b){
@@ -49,10 +48,8 @@ let decodeMorse = function(morseCode){
 			val+=MORSE_CODE[value.trim()]
 			}
     }
-
     return val
   });
-
   return result.join(' ').trim();
 }
 ```
